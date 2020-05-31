@@ -1,0 +1,259 @@
+/*
+@File: B-data Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+*******************************************
+*******************************************
+
+** - Default CSS
+** - Preloader Area CSS
+** - Navbar Area CSS
+** - Main Banner Area CSS
+** - About Section CSS
+** - Data Services Section CSS
+** - Fun Facts Section CSS
+** - Tabs Solutions Section CSS
+** - Work Section CSS
+** - Testimonial Section CSS
+** - Blog Section CSS
+** - Sidebar Widget Area CSS
+** - Partner Section CSS
+** - Subscribe Section CSS
+** - Services Section CSS
+** - Process Section CSS
+** - Software Section CSS
+** - Productive Section CSS
+** - Page Title Area CSS
+** - Team Section CSS
+** - Services Details CSS
+** - Projects Details Area CSS
+** - Pricing Area CSS
+** - Shop Area CSS
+** - Page Title Area CSS
+** - Team Section CSS
+** - Services Details CSS
+** - Projects Details Area CSS
+** - Pricing Area CSS
+** - Shop Area CSS
+** - Product Details Area CSS
+** - Pagination Area CSS
+** - Cart Area CSS
+** - Checkout Area CSS
+** - 404 Error Area CSS
+** - Coming Soon Area CSS
+** - Faq Section CSS
+** - Blog Details Area CSS
+** - Contact Area CSS
+** - Footer Section CSS
+** - Copyright Section CSS
+** - Go Top CSS
+*/
+/*================================================
+Default CSS
+=================================================*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+    transition: all 0.3s ease-in-out 0.1s;
+    outline: 0 !important;
+    color: var(---heading-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--main-theme-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+}
+
+/* --Common Class Area start-- */
+
+.box-shadow {
+    box-shadow: 0px 10px 41px -22px #5969c3;
+}
+
+.bg-color {
+    background-color: var(--dark-bg-color);
+}
+
+/* --Common Class Area start-- */
+
+/*--Common input style--*/
+
+input[type="text"],
+select,
+input[type="password"] {
+    min-height: 45px;
+    background: #f7f7f7;
+    border-color: #ddd;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    background-color: #fff;
+}
+
+.img-zoom-hover img {
+    transform-origin: 65% 75%;
+    transition: transform 1s, filter 0.5s ease-out;
+}
+
+.img-zoom-hover:hover img {
+    transform: scale(1.1);
+}
+
+/* --Button Area Start-- */
+
+
+.btn {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 0 35px;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in-out 0.1s;
+    border-radius: 40px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+    -moz-transition: all 0.3s ease-in-out 0.1s;
+    -ms-transition: all 0.3s ease-in-out 0.1s;
+    -o-transition: all 0.3s ease-in-out 0.1s;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+section {
+    position: relative;
+}
+
+/* --Button Area End-- */
+
+/* ---Common-Banner--- */
+
+/* --Navbar Area Start-- */
